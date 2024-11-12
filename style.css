@@ -1,0 +1,169 @@
+
+* {
+    border: 2px solid red;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: rgb(232, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+body, p, div, samp, button {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.container {
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.left-saide, .righit-saide {
+    flex: 1;
+}
+
+.left-saide {
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 15px; 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+}
+
+.Result-heder{
+   
+    color: white
+    
+}
+
+.Result-heder{
+    color: white
+    
+}
+
+.result-cercl{
+    display: inline-block;
+    background-color: hsl(241deg 73.9% 43.82% / 77.9%);
+    border-radius: 50%;
+    width: 70%;
+    padding-top: 50%;
+    position: relative;
+
+}
+
+.result-number{
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+}
+
+.result-of-100{
+    color: white
+}
+
+.Graet-hedar{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 2rem;
+    color: white
+}
+
+.motivtion-P{
+    color: rgb(153, 153, 153)
+}
+
+.righit-saide{
+
+    color: black;
+
+}
+
+
+.Reaction-div{
+    background-color: hsl(0, 100%, 67%, 0.419);
+    padding-left: 16%;
+    border-radius: 5px;
+    color: red;
+    margin-top: 3%;
+}
+
+.Memory-div{
+    background-color: hsl(39, 100%, 56%, 0.419);
+    padding-left: 16%;
+    border-radius: 5px;
+    color: yellow;
+    margin-top: 3%
+
+}
+
+.Verbal-div{
+    background-color: hsl(166, 100%, 37%, 0.419);
+    padding-left: 16%;
+    border-radius: 5px;
+    color: green;
+    margin-top: 3%
+}
+
+.Visual-div{
+    background-color: hsla(234, 85%, 45%, 0.419);
+    padding-left: 16%;
+    border-radius: 5px;
+    color: blue;
+    margin-top: 3%
+}
+
+.Continue-button{
+    background-color: hsl(241, 81%, 54%);
+    border: none;
+    color: white;
+    border-radius: 16px;
+    display: block;
+    margin: 20px auto;
+    padding: 8px 61px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(241, 81%, 64%); 
+}
+
+.attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.Reaction-samp{
+    padding: 10%;
+}
+
+.Memory-samp{
+    padding: 10%;
+}
+
+.Verbal-samp{
+    padding: 10%;
+}
+
+.Visual-samp{
+    padding: 10%;
+}
